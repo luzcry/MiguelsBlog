@@ -22,3 +22,4 @@ yarn-error.log*
 .vscodenode_modules/
 
 /public
+firebase-config.js
