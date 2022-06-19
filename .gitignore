@@ -23,3 +23,5 @@ yarn-error.log*
 
 /public
 firebase-config.js
+
+/.next
