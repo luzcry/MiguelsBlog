@@ -1,5 +1,7 @@
+/* footer */
+
 .line {
-  width: 80%;
+  width: 70%;
   background-color: black;
   height: 3px;
 } 
@@ -17,4 +19,44 @@
 .textFooter {
   display: flex;
   justify-content: center;
+}
+
+/* header */
+
+.menuContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navButton {
+  border: 1px solid aqua;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 2rem;
+}
+
+.titleButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+body.dark-mode {
+  background-color: #1a1919;
+  color: #999;
 }
