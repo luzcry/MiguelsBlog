@@ -1,7 +1,14 @@
+.generalContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
 /* footer */
 
 .line {
-  width: 70%;
+  width: 100%;
   background-color: black;
   height: 3px;
 } 
@@ -26,7 +33,7 @@
 .menuContainer {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -35,20 +42,20 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 1rem;
 }
 
 .navButton {
   border: 1px solid aqua;
   padding: 0.5rem;
-  margin-left: 1rem;
   margin-right: 1rem;
-  border-radius: 2rem;
+  border-radius: 8px;
 }
 
 .titleButtons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-items: flex-start;
 }
 
 body.light-mode {

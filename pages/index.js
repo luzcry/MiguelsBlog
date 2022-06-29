@@ -7,7 +7,7 @@ import styles from '../styles/About.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.generalContainer}>
       <Header/>
       <MetadataBlog/>
       <main>
